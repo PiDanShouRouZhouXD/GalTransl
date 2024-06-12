@@ -50,7 +50,7 @@ PROGRAM_SPLASH4 = r"""
 ALL_BANNERS = [PROGRAM_SPLASH1, PROGRAM_SPLASH2, PROGRAM_SPLASH3, PROGRAM_SPLASH4]
 PROGRAM_SPLASH = ALL_BANNERS[localtime().tm_mday % 4]
 
-GALTRANSL_VERSION = "5.1.0"
+GALTRANSL_VERSION = "5.2.0"
 AUTHOR = "xd2333"
 CONTRIBUTORS = (
     "ryank231231, PiDanShouRouZhouXD, Noriverwater, Isotr0py, adsf0427, pipixia244, gulaodeng"
@@ -69,6 +69,7 @@ TRANSLATOR_SUPPORTED = {
     "sakura-009": "为翻译轻小说/视觉小说开展大规模训练的本地模型。适用v0.9版prompt，不支持GPT字典",
     "rebuildr": "重建结果 用译前译后字典通过缓存刷写结果json -- 跳过翻译和写缓存",
     "rebuilda": "重建缓存和结果 用译前译后字典刷写缓存+结果json -- 跳过翻译",
+    "dump-name": "导出name字段，生成人名替换表，用于翻译name字段",
     "showplugs": "显示全部插件列表",
 }
 LANG_SUPPORTED = {
